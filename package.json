@@ -1,14 +1,16 @@
 {
-  "name": "reactpractice",
-  "version": "1.0.0",
-  "description": "Practice",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Tejaswini",
-  "license": "ISC",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  }
+    "name": "reactpractice",
+    "version": "1.0.0",
+    "description": "Practice",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm start lite",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lite": "lite-server"
+    },
+    "author": "Tejaswini",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    }
 }
